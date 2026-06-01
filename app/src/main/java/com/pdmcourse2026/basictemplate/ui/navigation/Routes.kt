@@ -5,6 +5,8 @@ import kotlinx.serialization.Serializable
 
 sealed class Routes : NavKey {
   @Serializable
-  data object Home : Routes()
+  data object Vote : Routes()
 
+  @Serializable
+  data object Results : Routes()
 }

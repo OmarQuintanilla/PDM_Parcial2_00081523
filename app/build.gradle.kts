@@ -13,6 +13,8 @@ if (localPropertiesFile.exists()) {
   localProperties.load(FileInputStream(localPropertiesFile))
 }
 
+val apiToken: String = localProperties.getProperty("API_TOKEN") ?: ""
+
 android {
   namespace = "com.pdmcourse2026.basictemplate"
   compileSdk {
