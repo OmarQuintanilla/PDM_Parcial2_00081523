@@ -1,4 +1,4 @@
-package com.pdmcourse2026.basictemplate.screens.home
+package com.pdmcourse2026.basictemplate.ui.screens.vote
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding

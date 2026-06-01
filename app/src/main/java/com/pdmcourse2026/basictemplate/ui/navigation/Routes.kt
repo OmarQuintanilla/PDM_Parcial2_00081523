@@ -1,4 +1,4 @@
-package com.pdmcourse2026.basictemplate
+package com.pdmcourse2026.basictemplate.ui.navigation
 
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
